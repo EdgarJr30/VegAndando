@@ -29,8 +29,13 @@
                 </div>
             </div>
 
-            <!-- ============= Price Section =================-->
-            <?php include __DIR__ . '/priceButton.php'; ?>
+            <div class="travel_description_price">
+                <p>USD $99 p/p</p>
+                <span>Consultar descuento por grupo</span>
+                <div class="top15px">
+                    <a href="https://wa.link/ihh72h" class="link_politics hvr-grow" target="_blank">Agenda Ya!</a>
+                </div>
+            </div>
         </div>
     </section>
 
