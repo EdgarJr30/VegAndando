@@ -1,0 +1,171 @@
+.new_travel_contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0 100px 0;
+}
+
+.box_card_travel_section--viajes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 5rem;
+}
+
+.new_travel_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel_box--agenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    width: 270px;
+    height: 266px;
+    background-color: rgba(10, 25, 46, 0.78);
+    border: solid 3px var(--white);
+    -webkit-border: solid 3px var(--white);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+
+.travel_box--agenda a {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 8px 0 5px 0;
+}
+
+.travel_box--agenda span {
+    text-align: center;
+    max-width: 150px;
+    color: var(--white);
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.travel_box--agenda h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+.title_travel_box--agenda {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    // gap: 6px;
+}
+
+.title_travel_box--agenda span {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--vega-red);
+}
+
+.title_travel_box--agenda h2 {
+    width: 100%;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 26px;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.title_travel_box--agenda h4 {
+    font-weight: 700;
+}
+
+.title_travel_box--agenda p {
+    color: var(--vega-yellow);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.paragraph_travel_box--agenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    // align-items: flex-start;
+    gap: 5px;
+    margin-top: -20px;
+}
+
+.paragraph_travel_box--agenda a {
+    color: var(--light-grey);
+}
+
+.paragraph_travel_box--agenda p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.img_travel_box--agenda {
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+}
+
+.img_viaje--viaje {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+  }
+
+.expired_filter {
+    opacity: 0.6;
+}
+
+
+.expired_filter::after {
+    content: 'Expired';
+    position: absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.expired_filter .travel_box--agenda {
+    height: 258px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .box_card_travel_section--viajes {
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+    }
+
+    .travel_box--agenda {
+        width: 253px;
+        height: 281px;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .travel_box--agenda {
+        width: 282px;
+        height: 281px;
+        justify-content: space-evenly;
+    }
+}

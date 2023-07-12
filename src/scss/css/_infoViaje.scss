@@ -1,0 +1,664 @@
+.heading_viaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  padding: 4rem 0.5rem;
+  background-color: var(--dark-light-blue);
+  border-radius: 3rem;
+  margin: 0 auto;
+}
+
+/* ============= Hero Image ============= */
+.hero_image {
+  max-width: 360px;
+}
+
+.hero_image img {
+  border-radius: 25px;
+  margin-top: 15px;
+  width: 90%;
+  height: 600px;
+  margin-bottom: 10px;
+}
+
+.img_viaje--swiper {
+  width: 100%;
+}
+
+/* ============= Title Viaje ============= */
+.title_viaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title_viaje h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title_viaje p {
+  width: 60%;
+  text-align: center;
+}
+
+.title_viaje span {
+  text-align: center;
+  color: var(--dark-grey-text);
+}
+
+.actividad__opcional {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.actividad__opcional h4,
+.actividad__opcional p {
+  margin: 0;
+}
+
+.actividad__opcional p {
+  color: var(--dark-grey-text);
+}
+
+/* ============= Rating y tag ============= */
+.rating_places {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rating_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rating {
+  margin: 15px 0 20px 0;
+  gap: 10px;
+}
+
+/* ============= Lugares a visitar ============= */
+.travel_adds_contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.places {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.places h3 {
+  color: var(--white);
+}
+
+.places_list {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // align-items: start;
+  width: 90%;
+  color: var(--white);
+  gap: 10px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.places_list ul li {
+  font-size: 13px;
+}
+
+/* ============= Tips a tener en cuenta ============= */
+.tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tips img {
+  width: 90%;
+}
+
+/* ============= Price y Ver mas Section   ============= */
+.price_rutes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.travel_adds_section {
+  gap: 10px;
+}
+
+.travel_add_item {
+  height: 112px;
+  justify-content: flex-start;
+}
+
+.travel_add_item h4 {
+  color: var(--white);
+  font-weight: 100;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* ============= Price Section ============= */
+.travel_description_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.travel_description_price h3 {
+  color: var(--white);
+  font-weight: 100;
+  margin: 0;
+}
+
+.travel_description_price p {
+  color: var(--vega-yellow);
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.travel_description_price span {
+  width: 70%;
+  text-align: center;
+  color: var(--dark-grey-text);
+}
+
+/* ============= Rutas de Salida ============= */
+.go_routes_content {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  // flex-direction: column;
+  // gap: 20px;
+}
+
+.horarios {
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hora {
+  padding: 0 30px;
+}
+
+.hora span,
+.provincia span,
+.lugar span {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.hora p,
+.provincia p,
+.lugar p {
+  font-size: 13px;
+  margin-top: 18px;
+}
+
+.hora p {
+  font-weight: 400;
+}
+
+/* ============= Linea ============= */
+.linea {
+  border-bottom: 1px solid var(--white);
+  margin: -16px auto 0 auto;
+  padding: 0 38px;
+}
+
+/* ============= Vertical Line ============= */
+.v-line--viaje {
+  border-left: 1px solid #fff;
+  height: 18rem;
+}
+
+.frase_section--viaje {
+  height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 2rem;
+  background-color: var(--dark-light-blue);
+}
+
+.frase_section--viaje p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* ============= Prohibido ============= */
+.prohibido__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.prohibido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.prohibido h4 {
+  font-size: 26px;
+}
+
+.prohibiciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-light-blue);
+  padding: 20px 35px;
+  border-radius: 30px;
+  gap: 15px;
+}
+
+/* ============= Dificultad y Recomendacion ============= */
+.difficulty_recomendation,
+.recomendation_first,
+.recomendation_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.difficulty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.difficulty_recomendation p {
+  width: 70%;
+  text-align: center;
+  color: var(--dark-grey-text);
+  font-weight: 300;
+}
+
+.difficulty_recomendation {
+  justify-content: flex-start;
+}
+
+/* ============= Circulos Section  ============= */
+.circle_contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_img {
+  max-width: 420px;
+}
+
+/* ============= Linea Date ============= */
+.linea_date {
+  border-bottom: 2px solid var(--white);
+}
+
+/* ============= Date ============= */
+.date_info {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date_info .travel_date_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  gap: 10px;
+}
+
+.date_info img {
+  height: 25px;
+  width: 25px;
+}
+
+.travel_date {
+  font-size: 30px;
+  color: var(--white);
+  padding: 30px 0;
+}
+
+/*=============== Countdown =============*/
+.coming_soon {
+  color: var(--white);
+}
+
+.coming_soon,
+.title_countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coming_soon .title_countdown h2 {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  font-weight: 100;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 28px;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 34px;
+  color: var(--vega-yellow);
+}
+
+.countdown p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.recuerda_countdown {
+  font-size: 12px;
+  width: 230px;
+  text-align: center;
+}
+
+/* ============= Politcas ============= */
+.politicas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.politicas_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.politicas img {
+  width: 60px;
+}
+
+.politicas h3 {
+  font-size: 26px;
+}
+
+.link_politics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--vega-yellow);
+}
+
+/* ============= Icono del boton Realizar Pago ============= */
+.schedule_icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* ============= @Media Querys min-width ============= */
+/* ============= InfoViaje ============= */
+@media only screen and (min-width: 475px) {
+  /* ============= Lugares a visitar Section ============= */
+  .places h3 {
+    font-size: 16.5px;
+  }
+
+  .places_list {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 0;
+    text-align: left;
+  }
+
+  /* ============= Price y Ver mas Section ============= */
+  .price_rutes {
+    flex-direction: row;
+  }
+
+  .view_more_section,
+  .view_more_content,
+  .schedule_button {
+    margin: 0;
+  }
+
+  /* ============= Circulos Section ============= */
+  .circle_img {
+    opacity: 0;
+    /* display: none; */
+    width: 50%;
+  }
+
+  /* ============= Politica pago Section ============= */
+  .politicas img {
+    width: 90px;
+  }
+
+  .politicas_title {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .heading_viaje {
+    width: 80%;
+    padding: 4rem 4rem;
+    flex-direction: row;
+  }
+
+  .title_viaje span {
+    width: 60%;
+  }
+
+  .frase_section--viaje  {
+    width: 60%;
+  }
+
+  .frase_section--viaje p {
+    max-width: 70%;
+  }
+
+  .hero_image img {
+    /* height: 95%; */
+    padding: 10px;
+    border-radius: 50px;
+    outline: 2px solid var(--vega-yellow);
+  }
+
+  /* ============= Title Viaje ============= */
+  .title_viaje {
+    text-align: left;
+  }
+
+  .title_viaje h1 {
+    font-size: 44px;
+  }
+
+  .title_viaje p {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  /* ============= Lugares a visitar ============= */
+  .places h3 {
+    width: 95%;
+    font-size: 20px;
+  }
+
+  .places_list {
+    width: 100%;
+    line-height: 28px;
+  }
+
+  .places_list ul li {
+    font-size: 21px;
+  }
+
+  /* ============= Tips a tener en cuenta ============= */
+  .tips {
+    margin: 0;
+  }
+
+  .travel_adds_contain {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .travel_adds_contain h3 {
+    font-size: 24px;
+  }
+
+  /* ============= Dificultad y Recomendacion ============= */
+  .recomendation_first,
+  .recomendation_second {
+    max-width: 50%;
+  }
+
+  .difficulty_recomendation,
+  .recomendation_first,
+  .recomendation_second,
+  .difficulty {
+    gap: 20px;
+  }
+
+  .difficulty_recomendation p {
+    width: 70%;
+    text-align: start;
+  }
+
+  .difficulty_recomendation {
+    flex-direction: row;
+  }
+
+  /* ============= Date ============= */
+  /* .date_info {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40px;
+    } */
+}
+
+@media only screen and (min-width: 1024px) {
+  .travel_adds_contain {
+    gap: 100px;
+    justify-content: space-evenly;
+  }
+
+  /* ============= Rutas de Salida ============= */
+  .go_routes_content h4 {
+    font-size: 24px;
+  }
+
+  .horarios {
+    gap: 20px;
+  }
+
+  .hora span,
+  .provincia span,
+  .lugar span {
+    font-size: 21px;
+  }
+
+  .hora p,
+  .provincia p,
+  .lugar p {
+    font-size: 19px;
+  }
+
+  /* ============= Vertical Line ============= */
+  .linea {
+    padding: 0 70px;
+  }
+
+  /* ============= Date ============= */
+  /*  .date_info {
+        gap: 120px;
+    } */
+  /* No coge los estilos */
+  /* .travel_date_title h3 {
+        font-size: 24px;
+    } */
+  .date_info .travel_date {
+    font-size: 48px;
+  }
+
+  /*=============== Countdown =============*/
+  .coming_soon .title_countdown h2 {
+    font-size: 36px;
+  }
+
+  .day,
+  .hour,
+  .minute,
+  .second {
+    font-size: 52px;
+  }
+
+  .countdown p {
+    font-size: 20px;
+  }
+
+  .recuerda_countdown {
+    font-size: 16px;
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}

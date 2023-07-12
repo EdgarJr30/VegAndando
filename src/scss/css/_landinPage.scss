@@ -1,0 +1,149 @@
+.palma,
+.coco {
+    display: none;
+}
+
+.landing_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    z-index: 1;
+    margin-top: 5rem;
+}
+
+.logo_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.ocupation_landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.text_effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_landing .text_landing_js {
+    font-size: 35px;
+    color: var(--vega-yellow);
+    font-weight: 800;
+}
+
+.p1_text_landing,
+.p2_text_landing {
+    margin-bottom: -8px;
+    font-weight: 100;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.buttom_conocemas_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+    border: 3px solid var(--vega-yellow);
+    border-radius: 1rem;
+    font-weight: 800;
+}
+
+.container_video {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+video {
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    border-radius: 2rem;
+}
+
+footer {
+    margin-top: 16rem;
+}
+
+.socialmedia_footer--landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_right--landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: solid 1px var(--white);
+    font-weight: 100;
+}
+
+.copy_right--landing a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_right--landing a p,
+.copy_right--landing p,
+.copy_right--landing p span {
+    margin-top: 5px;
+    color: var(--white);
+}
+
+.copy_right--landing p span a {
+    color: var(--vega-yellow);
+}
+
+.copy_right--landing p {
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .palma {
+        display: block;
+        position: absolute;
+        width: 20rem;
+        top: 412px;
+    }
+
+    .coco {
+        display: block;
+        position: absolute;
+        width: 10rem;
+        top: 250px;
+        right: 25px;
+    }
+}
