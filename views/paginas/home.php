@@ -39,7 +39,7 @@
                 <div class="product-details">
                     <!-- <span class="product-catagory">Un parque de aventuras, con atracciones exclusivas en Republica
                         Dominicana, como la única telesilla del país, y el zipline más largo y rápido.</span> -->
-                    <h4 class="product-details_new"><a class="hvr-grow" href="#">Guía Hacienda Park</a> <svg
+                    <h4 class="product-details_new"><a class="hvr-grow" href="./haciendapark">Guía Hacienda Park</a> <svg
                             xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle"
                             width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
                             stroke-linecap="round" stroke-linejoin="round">
