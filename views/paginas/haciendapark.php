@@ -55,6 +55,18 @@
         </div>
     </section>
 
+    <div class="ful-img" id="fulImgBox">
+        <img src="imgs/1.jpg" id="fulImg" alt="" />
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <div class="img-gallery">
+        <img src="https://i.imgur.com/BEeAEnl.png" onclick="openFulImg(this.src)" alt="" loading="lazy" />
+        <img src="https://i.imgur.com/oaTITlU.png" onclick="openFulImg(this.src)" alt="" loading="lazy" />
+        <img src="https://i.imgur.com/QBETGjX.jpg" onclick="openFulImg(this.src)" alt="" loading="lazy" />
+
+    </div>
+
     <!-- ============= Frase Section =================-->
     <section class="frase_section--viaje top60px">
         <p>Un parque de aventuras, con atracciones exclusivas en Republica Dominicana, como la única telesilla del
