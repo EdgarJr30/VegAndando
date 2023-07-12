@@ -1,6 +1,6 @@
 <main>
-    <?php include_once __DIR__ . './../../templates/headerNavbar.php'; ?>
-    <?php include_once __DIR__ . './../../templates/cookies.php'; ?>
+    <?php include_once __DIR__ . '../../templates/headerNavbar.php'; ?>
+    <?php include_once __DIR__ . '../../templates/cookies.php'; ?>
 
     <!-- ============= Heading Section ============= -->
     <section class="heading_viaje top60px">
@@ -99,9 +99,9 @@
     </section>
 
     <!-- ========== MENU ========== -->
-    <?php include_once __DIR__ . './../../templates/menu.php'; ?>
+    <?php include_once __DIR__ . '../../templates/menu.php'; ?>
 
     <!-- ========== Footer ========== -->
-    <?php include_once __DIR__ . './../../templates/footer.php'; ?>
+    <?php include_once __DIR__ . '../../templates/footer.php'; ?>
 
 </main>
